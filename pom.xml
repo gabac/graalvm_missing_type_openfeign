@@ -17,7 +17,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<spring-cloud.version>Hoxton.SR4</spring-cloud.version>
+		<spring-cloud.version>Hoxton.SR5</spring-cloud.version>
 		<start-class>ch.cyril.Application</start-class>
 	</properties>
 
@@ -56,7 +56,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.experimental</groupId>
-			<artifactId>spring-graal-native</artifactId>
+			<artifactId>spring-graalvm-native</artifactId>
 			<version>0.7.0.BUILD-SNAPSHOT</version>
 		</dependency>
 
